@@ -1,0 +1,130 @@
+.features {
+  @media screen and (max-device-width: 767px) {
+    list-style: none;
+    max-width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+
+    &__li:not(:last-child) {
+      margin-bottom: 30px;
+    }
+
+    &__div {
+      height: 120px;
+      background-color: #f5f4fa;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    &__svg {
+      width: 70px;
+      height: 70px;
+    }
+
+    &__h3 {
+      font-size: 14px;
+      line-height: 1.14;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    &__p {
+      font-size: 14px;
+      line-height: 1.71;
+      color: #757575;
+      height: 50px;
+    }
+  }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1199px) {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+    &__li {
+      width: 354px;
+    }
+
+    &__li:nth-child(odd) {
+      margin-right: 30px;
+    }
+
+    &__li:nth-child(-n + 2) {
+      margin-bottom: 30px;
+    }
+
+    &__div {
+      height: 120px;
+      background-color: #f5f4fa;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    &__svg {
+      width: 70px;
+      height: 70px;
+    }
+
+    &__h3 {
+      font-size: 14px;
+      line-height: 1.14;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    &__p {
+      font-size: 14px;
+      line-height: 1.71;
+      color: #757575;
+    }
+  }
+  @media screen and (min-device-width: 1200px) {
+    display: flex;
+    list-style: none;
+
+    &__li {
+      width: 270px;
+    }
+
+    &__li:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    &__div {
+      height: 120px;
+      background-color: #f5f4fa;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+    }
+
+    &__svg {
+      width: 70px;
+      height: 70px;
+    }
+
+    &__h3 {
+      font-size: 14px;
+      line-height: 1.14;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    &__p {
+      font-size: 14px;
+      line-height: 1.71;
+      color: #757575;
+    }
+  }
+}
