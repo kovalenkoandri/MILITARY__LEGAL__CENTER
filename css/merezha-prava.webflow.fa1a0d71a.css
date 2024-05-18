@@ -2412,7 +2412,7 @@ a {
 .nav-wrapper {
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 144px;
   margin-left: 64px;
   margin-right: 64px;
   display: flex;
@@ -7448,9 +7448,9 @@ a {
     margin-right: 20px;
   }
 
-  .contact-wrapper.pk, .phone-wrapper {
+  /* .contact-wrapper.pk, .phone-wrapper {
     display: none;
-  }
+  } */
 
   .phone-wrapper.mobile {
     flex-direction: column;
