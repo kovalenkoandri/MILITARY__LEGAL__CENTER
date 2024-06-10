@@ -3046,7 +3046,7 @@ a {
 
 .box.services {
   justify-content: space-between;
-  height: 180px;
+  height: 360px;
   margin-top: 0;
   padding: 24px 20px;
   text-decoration: none;
@@ -3168,8 +3168,8 @@ a {
 .text-in-box.services {
   text-align: left;
   align-items: center;
-  max-width: 500px;
-  font-size: 18px;
+  max-width: 600px;
+  font-size: 30px;
   line-height: 1.5;
   font-weight: 100;
   display: flex;
