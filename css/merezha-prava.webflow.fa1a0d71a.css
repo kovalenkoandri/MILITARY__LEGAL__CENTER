@@ -1966,9 +1966,9 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
-  .w-nav[data-collapse="medium"] .w-nav-menu {
+  /* .w-nav[data-collapse="medium"] .w-nav-menu {
     display: none;
-  }
+  } */
 
   .w-nav[data-collapse="medium"] .w-nav-button {
     display: block;
@@ -7794,9 +7794,9 @@ a {
     padding-top: 10px;
   }
 
-  .navigation-left {
+  /* .navigation-left {
     display: none;
-  }
+  } */
 
   .mobile-toggle, .mobile-dropdown {
     width: 100%;
@@ -7820,9 +7820,9 @@ a {
     box-shadow: 11px 59px 55px rgba(82, 82, 82, .05);
   }
 
-  .navigation {
+  /* .navigation {
     display: none;
-  }
+  } */
 
   .mobile-nav {
     background-color: #f4f9fb;
